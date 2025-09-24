@@ -64,9 +64,13 @@ img {
 }
 
 .gallery img {
-  width: 100%;
+  width: 250px;       /* sets fixed size */
+  height: auto;       /* keeps proportions */
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;     /* centers image */
 }
+
 
 .gallery figcaption {
   text-align: center;
