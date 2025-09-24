@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
 
 body {
-  background-color: #1d1f2f; /* dark navy background */
-  color: #f5f5f5;           /* light text */
+  background-color: #1d1f2f; 
+  color: #f5f5f5;          
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ h1 {
 
 header {
   width: 100%;
-  background-color: #222;  /* dark gray */
+  background-color: #222;  
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -59,21 +59,21 @@ a:hover {
   color: red;
 }
 nav a {
-  color: #00bfff;        /* bright blue links */
+  color: #00bfff;       
   font-weight: bold;
   text-decoration: none;
   margin-right: 15px;
 }
 
 nav a:hover {
-  color: #ff4500;        /* orange hover */
+  color: #ff4500;        /
 }
 
 
 
 }
 .card { background: white; padding: 10px; border-radius: 8px; } 
-.highlight { color: #0073e6; font-weight: 700; }  /* blue */
+.highlight { color: #0073e6; font-weight: 700; } 
 
   font-weight: bold;
 }
@@ -85,41 +85,40 @@ nav a:hover {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 220px); /* fixed 220px tiles */
+  grid-template-columns: repeat(auto-fit, 220px); 
   gap: 20px;
-  justify-content: center;      /* center the row of tiles */
+  justify-content: center;     
   margin: 40px auto;
-  max-width: 900px;             /* optional safety cap */
+  max-width: 900px;
 }
 from going full-screen */
 }
 
 
 .gallery img {
-  width: 200px;     /* fixed thumbnail width */
-  height: auto;     /* keep proportions */
+  width: 200px;     
+  height: auto;     
   border-radius: 8px;
   display: block;
-  margin: 0 auto;   /* center each image in its tile */
+  margin: 0 auto;   
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
   gap: 20px;
-  max-width: 900px;            /* keeps the row from stretching across the whole page */
-  margin: 24px auto;           /* centers the grid */
+  max-width: 900px;            
+  margin: 24px auto;           
 }
 
 .gallery figure {
-  margin: 0;                   /* remove default figure margins */
-}
+  margin: 0;                  
 
 .gallery img {
-  width: 100%;                 /* fill the grid cell */
-  aspect-ratio: 1 / 1;         /* make uniform squares */
-  object-fit: cover;           /* crop to fit without distortion */
-  display: block;              /* remove inline-gap */
+  width: 100%;                
+  aspect-ratio: 1 / 1;         
+  object-fit: cover;           
+  display: block;              
   border-radius: 8px;
 }
 
