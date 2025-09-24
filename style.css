@@ -62,8 +62,11 @@ a:hover {
 
 
 }
-.card { background: white; padding: 10px; border-radius: 8px; }
-.highlight { color: gold; font-weight: 700; }
+.card { background: white; padding: 10px; border-radius: 8px; } ..highlight {
+  color: #00bfff;   /* bright blue */
+  font-weight: bold;
+}
+
 .green {
   color: green;
 }
