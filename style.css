@@ -27,11 +27,13 @@ header {
 }
 
 main {
-  width: 960px;
+  width: 100%;
 }
 
 footer {
-  width: 960px;
+  width: 100%;
+}
+
 }
 
 h2 {
@@ -75,12 +77,13 @@ a:hover {
 }
 
 
-
-
 .gallery img {
-  width: 100%;   /* fill the grid cell, not the page */
+  width: 100%;
+  max-width: 220px;   /* cap image size */
   height: auto;
   border-radius: 8px;
   display: block;
-  margin: 0;
+  margin: 0 auto;     /* center the image */
+}
+
 }
