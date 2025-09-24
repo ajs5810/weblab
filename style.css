@@ -55,7 +55,7 @@ a:hover {
   color: red;
 }
 
-img {
+
 
 }
 .card { background: white; padding: 10px; border-radius: 8px; }
@@ -65,11 +65,7 @@ img {
 }
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* 3 across on desktop */
-  gap: 15px;
-  margin-top: 20px;
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* smaller cards */
