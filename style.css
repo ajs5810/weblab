@@ -58,12 +58,23 @@ li a {
 a:hover {
   color: red;
 }
+nav a {
+  color: #00bfff;        /* bright blue links */
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  color: #ff4500;        /* orange hover */
+}
 
 
 
 }
-.card { background: white; padding: 10px; border-radius: 8px; } ..highlight {
-  color: #00bfff;   /* bright blue */
+.card { background: white; padding: 10px; border-radius: 8px; } 
+.highlight { color: #0073e6; font-weight: 700; }  /* blue */
+
   font-weight: bold;
 }
 
