@@ -103,3 +103,23 @@ from going full-screen */
   margin: 0 auto;   /* center each image in its tile */
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive columns */
+  gap: 20px;
+  max-width: 900px;            /* keeps the row from stretching across the whole page */
+  margin: 24px auto;           /* centers the grid */
+}
+
+.gallery figure {
+  margin: 0;                   /* remove default figure margins */
+}
+
+.gallery img {
+  width: 100%;                 /* fill the grid cell */
+  aspect-ratio: 1 / 1;         /* make uniform squares */
+  object-fit: cover;           /* crop to fit without distortion */
+  display: block;              /* remove inline-gap */
+  border-radius: 8px;
+}
+
