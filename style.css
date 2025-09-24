@@ -47,7 +47,7 @@ a:hover {
 }
 
 img {
-  width: 300px;
+
 }
 .card { background: white; padding: 10px; border-radius: 8px; }
 .highlight { color: gold; font-weight: 700; }
@@ -58,18 +58,19 @@ img {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, 1fr);  /* 3 across on desktop */
   gap: 15px;
   margin-top: 20px;
 }
 
 .gallery img {
-  width: 250px;       /* sets fixed size */
-  height: auto;       /* keeps proportions */
+  width: 100%;      /* fills the grid cell */
+  height: auto;
   border-radius: 8px;
   display: block;
-  margin: 0 auto;     /* centers image */
+  margin: 0;        /* no extra centering needed now */
 }
+
 
 
 .gallery figcaption {
