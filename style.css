@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
+
+body {
+  background-color: sienna;   
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  width: 960px;
+  background-color: red;
+  height: 100px;
+  padding: 20px;
+}
+
+main {
+  width: 960px;
+}
+
+footer {
+  width: 960px;
+}
+
+h2 {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  color: blue;
+}
+
+li a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  width: 300px;
+}
+.card { background: white; padding: 10px; border-radius: 8px; }
+.highlight { color: gold; font-weight: 700; }
+.green {
+  color: green;
+}
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 5px;
+}
