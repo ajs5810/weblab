@@ -78,12 +78,11 @@ a:hover {
 
 
 .gallery img {
-  width: 100%;
-  max-width: 220px;   /* cap image size */
-  height: auto;
+  width: 200px;      /* fixed width */
+  height: auto;      /* keeps proportions */
   border-radius: 8px;
   display: block;
-  margin: 0 auto;     /* center the image */
+  margin: 0 auto;    /* center each image */
 }
 
 }
