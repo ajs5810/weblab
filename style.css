@@ -65,7 +65,6 @@ a:hover {
 .green {
   color: green;
 }
-}
 
 
 .gallery {
@@ -78,11 +77,12 @@ a:hover {
 
 
 .gallery img {
-  width: 200px;      /* fixed width */
-  height: auto;      /* keeps proportions */
+  max-width: 200px;   /* cap image size */
+  width: 100%;        /* keep them responsive inside the 200px cap */
+  height: auto;       /* keeps proportions */
   border-radius: 8px;
   display: block;
-  margin: 0 auto;    /* center each image */
+  margin: 0 auto;     /* center each image */
 }
 
-}
+
