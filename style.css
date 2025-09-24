@@ -69,20 +69,21 @@ a:hover {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* smaller cards */
+  grid-template-columns: repeat(auto-fit, 220px); /* fixed 220px tiles */
   gap: 20px;
-  margin: 40px auto;      /* center the gallery */
-  max-width: 900px;       /* STOP it from going full-screen */
+  justify-content: center;      /* center the row of tiles */
+  margin: 40px auto;
+  max-width: 900px;             /* optional safety cap */
+}
+from going full-screen */
 }
 
 
 .gallery img {
-  max-width: 200px;   /* cap image size */
-  width: 100%;        /* keep them responsive inside the 200px cap */
-  height: auto;       /* keeps proportions */
+  width: 200px;     /* fixed thumbnail width */
+  height: auto;     /* keep proportions */
   border-radius: 8px;
   display: block;
-  margin: 0 auto;     /* center each image */
+  margin: 0 auto;   /* center each image in its tile */
 }
-
 
